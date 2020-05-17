@@ -16,17 +16,26 @@ I think this device is some how GRBL32 compatible?... let's see...
 [![Watch the video](https://img.youtube.com/vi/J-UeIn8csfk/maxresdefault.jpg)](https://youtu.be/J-UeIn8csfk)
 Identfication:
 
-SKUA20539-20492184 
-U7 = STM32F103c8t6 
-U13 = 25Q32JVS10 (4MBytes of Winbond SPI flash) 
-U1-2 = ATD5988 (Stepper drivers) 
+SKUA20539-20492184
+
+U7 = STM32F103c8t6
+
+U13 = 25Q32JVS10 (4MBytes of Winbond SPI flash)
+
+U1-2 = ATD5988 (Stepper drivers)
+
 U3 = CH340C (USB uart ttl)
 
 P5 = programmer USB??
+
 P2 and P4 = Laser+minifan port
+
 P3 = Big Fan port
+
 P6 = power port
+
 P1 = USB port
 
-B1-5 = Buttons<br>
-BLE1=some bluetooth module?<br>
+
+B1-5 = Buttons
+BLE1=some bluetooth module?
