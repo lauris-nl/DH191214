@@ -9,7 +9,6 @@ I used my engraver via the Android app. (this worked great) But when I installed
 The machine stopped working permanently.
 The laser went off and the big fan also stopped.
 I think my SPI flash got corrupted... I need to restore a backup. 
-My PCB date code is 20190613
 
 I think this device is some how GRBL32 compatible?... let's see...
 
