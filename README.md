@@ -15,7 +15,7 @@ I think this device is some how GRBL32 compatible?... let's see...
 [![Watch the video](https://img.youtube.com/vi/J-UeIn8csfk/maxresdefault.jpg)](https://youtu.be/J-UeIn8csfk)
 Identfication:
 
-SKUA20539-20492184
+SKUA20539-20492184 (Code on the box)
 
 U7 = STM32F103c8t6
 
