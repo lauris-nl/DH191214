@@ -38,3 +38,7 @@ P1 = USB port
 
 B1-5 = Buttons
 BLE1=some bluetooth module?
+
+
+List of bluepill projects:
+https://onstep.groups.io/g/main/wiki/6408
