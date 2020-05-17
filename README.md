@@ -7,25 +7,30 @@ Laser controller board from k4 Bluetooth 3000mW Laser engraving machine from ali
 I used my engraver via the Android app. (this worked great) But when I installed the windows software and connected the engraver to my USB. 
 
 The machine stopped working permanently. 
+The laser went off and the big fan also stopped.
+I think my SPI flash got corrupted... I need to restore a backup. 
+My PCB date code is 20190613
 
-The laser went off and the big fan also stopped. 
-I think my SPI flash got corrupted... I need to restore a backup. My PCB date code is 20190613
 I think this device is some how GRBL32 compatible?... let's see...
 
-
+[![Watch the video](https://img.youtube.com/vi/J-UeIn8csfk/maxresdefault.jpg)](https://youtu.be/J-UeIn8csfk)
 Identfication:
 
-SKUA20539-20492184
-U7 = STM32F103c8t6
-U13 = 25Q32JVS10 (4MBytes of Winbond SPI flash)
-U1-2 = ATD5988 (Stepper drivers)
-U3 = CH340C (USB uart ttl)
+SKUA20539-20492184 
 
-P5 = programmer USB??
-P2 and P4 = Laser+minifan port
-P3 = Big Fan port
-P6 = power port
-P1 = USB port
+U7 = STM32F103c8t6 
 
-B1-5 = Buttons
-BLE1=some bluetooth module?
+U13 = 25Q32JVS10 (4MBytes of Winbond SPI flash) 
+
+U1-2 = ATD5988 (Stepper drivers) 
+
+U3 = CH340C (USB uart ttl) <br>
+
+P5 = programmer USB??<br>
+P2 and P4 = Laser+minifan port<br>
+P3 = Big Fan port<br>
+P6 = power port<br>
+P1 = USB port<br>
+<br>
+B1-5 = Buttons<br>
+BLE1=some bluetooth module?<br>
